@@ -43,7 +43,7 @@ export default class GameScene extends Phaser.Scene {
     }
 
     gameState.playerName = localGetter();
-    const names = ['Stinky', 'guy with small...', 'unnamed', 'I need a name', 'speedy'];
+    const names = ['Stinky', 'stinkleer', 'speedy', 'jammal', 'jayden-james'];
     if (!gameState.playerName) {
       gameState.playerName = names[Math.floor(Math.random() * names.length)];
       localSetter(gameState.playerName);
